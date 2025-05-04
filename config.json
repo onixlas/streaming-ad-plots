@@ -1,0 +1,31 @@
+{
+  "visualization": {
+    "colors": {
+      "normal": "#2ecc71",
+      "anomaly": "#e74c3c",
+      "trend_line": "#3498db"
+    },
+    "styles": {
+      "normal_point": "o", 
+      "anomaly_point": "X",
+      "trend_line": "--"
+    },
+    "sizes": {
+      "point": 70,
+      "line_width": 1.5
+    },
+    "opacity": {
+      "point": 0.8,
+      "trend_line": 0.3
+    },
+    "output": {
+      "format": "png",
+      "dpi": 300,
+      "folder": "plots"
+    },
+    "layout": {
+      "figsize": [12, 6],
+      "fontsize": 14
+    }
+  }
+}
